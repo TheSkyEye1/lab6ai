@@ -7,6 +7,11 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        
+        <Canvas x:Name="scene" HorizontalAlignment="Left" Height="400" Margin="20,20,0,0" VerticalAlignment="Top" Width="600"/>
+        <Label x:Name="LB_iteration" Content="Label" HorizontalAlignment="Left" Height="40" Margin="640,20,0,0" VerticalAlignment="Top" Width="150"/>
+        <Label Content="Best position:" HorizontalAlignment="Left" Height="40" Margin="640,60,0,0" VerticalAlignment="Top" Width="150"/>
+        <Label x:Name="LB_best" Content="" HorizontalAlignment="Left" Height="40" Margin="640,100,0,0" VerticalAlignment="Top" Width="150"/>
+        <Button x:Name="Start_B" Content="Start" HorizontalAlignment="Left" Height="40" Margin="640,380,0,0" VerticalAlignment="Top" Width="150" Click="Start_B_Click"/>
+
     </Grid>
 </Window>
