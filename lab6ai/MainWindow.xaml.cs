@@ -30,7 +30,7 @@ namespace lab6ai
         public MainWindow()
         {
             InitializeComponent();
-            timer = new DispatcherTimer() { Interval = new TimeSpan(0, 0, 0, 0, 100) };
+            timer = new DispatcherTimer() { Interval = new TimeSpan(0, 0, 0, 0, 150) };
             timer.Tick += new EventHandler(Timer_Tick);
         }
 
